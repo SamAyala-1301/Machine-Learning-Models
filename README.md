@@ -1,6 +1,7 @@
 # Machine-Learning-Models
 
-1. Movie Recommeder System (Content-Based):
+1. **Movie Recommeder System (Content-Based):**
+   
    Using the dataset from Kaggle, built a movie recommndation engine in Jupyter notebook.
    Libraries Used: Numpy, Pandas, NLTK(For Word Stemming), Scikit-Learn.
 
