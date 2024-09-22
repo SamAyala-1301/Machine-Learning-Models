@@ -1,4 +1,4 @@
-Movie Recommendation System
+# Movie Recommendation System
 
 This repository contains the code for building a Movie Recommendation System using metadata from the TMDB (The Movie Database) 5000 movies dataset. The goal of this project is to recommend similar movies based on the content of the movie, using natural language processing techniques.
 
@@ -9,7 +9,7 @@ The project uses two CSV files:
 	•	tmdb_5000_movies.csv: Contains movie metadata such as budget, genres, keywords, cast, crew, popularity, etc.
 	•	tmdb_5000_credits.csv: Contains cast and crew information for the movies.
 
-Project Overview
+### Project Overview
 
 Steps Performed
 
@@ -35,11 +35,9 @@ Steps Performed
 	8.	Final Dataframe:
 		The final dataframe (new_df) contains only three columns: movie_id, title, and tags. This will be used as input for the recommendation system.
 
-How It Works
+### How It Works
 
 	•	The recommendation system works by comparing the tags of a movie with other movies using cosine similarity. The system suggests movies that have the most similar tags to the given movie.
-
-Getting Started
 
 Prerequisites
 
